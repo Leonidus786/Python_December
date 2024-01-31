@@ -46,11 +46,12 @@ fun_name(A1, A2,........., An)
 
 # my_function(2,3)
 
-# def my_function (a1,a2):
-#     t = a1+a2
-#     print(t)
+def my_function (a1,a2):
+    t = a1+a2
+    print(t)
 
-# my_function("amit","a2")
+b = my_function(4,5)
+print(b)
 
 
 # def my_function(fname):
@@ -94,11 +95,11 @@ fun_name(A1, A2,........., An)
 # print(my_function(9))
 
 
-def my_function(food):
-  for x in food:
-    print(x)
+# def my_function(food):
+#   for x in food:
+#     print(x)
 
-fruits = ["apple", "banana", "cherry"]
+# fruits = ["apple", "banana", "cherry"]
 
-my_function(fruits)
+# my_function(fruits)
 
