@@ -14,3 +14,6 @@ I'm adding the images here so you can see and understand the logic.
 
 little help -- https://developers.google.com/edu/python/lists#for-and-in
 
+https://www.askpython.com/python/python-import-statement
+
+
