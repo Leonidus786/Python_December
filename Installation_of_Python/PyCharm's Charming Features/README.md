@@ -6,7 +6,17 @@
 # Now, if you type this wrong, for example, if I wrote phone number without an 'e', and I try to run this, then you'll see, I get an error. 
 # But the spell check should already alert you to the issue before you even hit run. See how this is underlined with a squiggle and it tells you that there's a typo in the word phon, and you can click change to phone maybe.
 # And it's just a subtle hint to say, 'Hey, I think maybe you got that wrong. Just DoubleCheck.' And indeed, once we fix that, then we get rid of all our issues and everything works perfectly.
-
+contacts = {
+    "James": {
+        "phone_number": 1234567890,
+        "email": "james@example.com",
+    },
+    "Jenny": {
+        "phone_number": 9876543210,
+        "email": "abc@gmail.com",
+    }
+}
+print(contacts["James"]["phon_number"])
 
 # The next feature that I really like is having more space to develop.
 # What do I mean by this? Well, very often we actually tend to have more than one code file, right?
@@ -29,4 +39,4 @@
 # Once you start having lots and lots of variables and lots of lots of functions, this is a lifesaver.
 # Now there's a lot of other features that I'm going to show you that PyCharm can do, but I want to do it gradually. For now here's the last tip on PyCharm.
 # Whenever you create a variable or a function name and you end up using it in lots of places, so for example you might call my_function here and then you might call my_function again passing in some different parameters at some later point in time. 
-# And then you decide that actually,
+# And then you decide that actually, I really don't like the way that I've named that function. It would make so much more sense if it was called add instead because it returns the total right? If I was to do this manually in a code editor, I would have to go add, and then all of these lines will break and I have to find all of them and then change them manually. And that's very painful. So instead, what you can do in PyCharm is you can right-click on the name of your function or your variable, go to refactor -> rename. And now it will find all of the places where this function is created, where it's called, and you can now change it everywhere. So click refactor, and it's now found the function that needs to be renamed and also all the places where it's used. So it's used in two places, here. So now I click do refactor and what'll happen is it'll change all the places where
